@@ -1,6 +1,7 @@
 Set Frame Range OTL
 
 1. This tool checks the data from a notion table (you will need your notion_token and notion_page_id from notion), to get these go check https://developers.notion.com/reference/create-a-token and https://www.notion.so/help/unique-id
+2. Run GetdatafromNotion.py to download the requiered information into a .json file
 2. It will create 3 different .json files. 
 	- db_info.json will have the database object information ( more information https://developers.notion.com/reference/retrieve-a-database )
 	- db_rows.json will get the list of pages ( more information https://developers.notion.com/reference/post-database-query )
