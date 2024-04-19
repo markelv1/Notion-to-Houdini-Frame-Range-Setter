@@ -1,7 +1,8 @@
 Set Frame Range OTL
 
-1. This tool checks the data from a notion table (you will need your notion_token and notion_page_id from notion), to get these go check https://developers.notion.com/reference/create-a-token and https://www.notion.so/help/unique-id
+This tool checks the data from a notion table (you will need your notion_token and notion_page_id from notion), to get these go check https://developers.notion.com/reference/create-a-token and https://www.notion.so/help/unique-id
 ![Set frame range](https://github.com/markelv1/Notion-to-Houdini-Frame-Range-Setter/assets/166550328/1ffc7f1e-6f13-4ed8-b516-8a2e4f96291f)
+1. Place your notion_token and notion_page_id in the token.json file
 2. Run GetdatafromNotion.py to download the requiered information into a .json file
 3. It will create 3 different .json files. 
 	- db_info.json will have the database object information ( more information https://developers.notion.com/reference/retrieve-a-database )
